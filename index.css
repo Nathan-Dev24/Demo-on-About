@@ -1,0 +1,17 @@
+main>section {
+    display: flex;
+    /* flex-direction: ; */
+    margin: 7%;
+    gap: 4%;
+    justify-content: space-between;
+}
+main>section.about {
+    padding-top: 5%;
+}
+main>section>.about>button {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px 12px;
+    border-style: none;
+}
